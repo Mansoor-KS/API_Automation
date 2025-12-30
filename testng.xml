@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ALL Test Suite">
+
+    <!-- Allure Listener (MANDATORY) -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="API TestNG Tests">
+        <classes>
+            <class name="com.mansoor.api.ex_03_RA_TestNG_Allure.APITesting_Lab06_TestCase"/>
+            <class name="com.mansoor.api.ex_03_RA_TestNG_Allure.APITesting_Lab_07_TestCase"/>
+        </classes>
+    </test>
+
+</suite>
+
