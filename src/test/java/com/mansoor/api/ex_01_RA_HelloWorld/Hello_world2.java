@@ -1,4 +1,4 @@
-package com.mansoor.api;
+package com.mansoor.api.ex_01_RA_HelloWorld;
 
 import io.restassured.RestAssured;
 
